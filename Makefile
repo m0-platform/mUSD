@@ -59,6 +59,9 @@ deploy-mainnet: deploy
 deploy-linea: RPC_URL=$(LINEA_RPC_URL)
 deploy-linea: deploy
 
+deploy-monad: RPC_URL=$(MONAD_RPC_URL)
+deploy-monad: deploy
+
 deploy-bnb: RPC_URL=$(BNB_RPC_URL)
 deploy-bnb: deploy
 
